@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-Role-BuildInstanceOf
-%define upstream_version 0.07
+%define upstream_version 0.08
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Less Boilerplate when you need lots of Instances
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Role-BuildInstanceOf-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::MOP)
@@ -76,4 +76,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Fri Dec 03 2010 Shlomi Fish <shlomif@mandriva.org> 0.70.0-1mdv2011.0
 + Revision: 607003
 - import perl-MooseX-Role-BuildInstanceOf
+
 

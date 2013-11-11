@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-Role-BuildInstanceOf-0.07.tar.gz: ef9a59f546056b8ec537e342b5a07f8c8608fe1d
 sources:
-  "MooseX-Role-BuildInstanceOf-0.07.tar.gz": ef9a59f546056b8ec537e342b5a07f8c8608fe1d
+  MooseX-Role-BuildInstanceOf-0.08.tar.gz: a97f2241426f78a2e5e04fc03ebef256fd938dfa
