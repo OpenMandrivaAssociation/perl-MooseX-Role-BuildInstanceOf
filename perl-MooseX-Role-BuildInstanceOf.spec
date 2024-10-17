@@ -9,7 +9,7 @@ Summary:	Less Boilerplate when you need lots of Instances
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Role-BuildInstanceOf-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
