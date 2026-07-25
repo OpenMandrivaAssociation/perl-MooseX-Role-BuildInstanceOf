@@ -2,15 +2,15 @@
 %define upstream_version 0.08
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Less Boilerplate when you need lots of Instances
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Role-BuildInstanceOf-%{upstream_version}.tar.gz
+Url:		https://github.com/jjn1056/MooseX-Role-BuildInstanceOf
+Source0:	https://cpan.metacpan.org/authors/id/J/JJ/JJNAPIORK/MooseX-Role-BuildInstanceOf-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
